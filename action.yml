@@ -1,0 +1,7 @@
+name: lab-action
+description: research throwaway
+runs:
+  using: composite
+  steps:
+    - run: echo "MARKER=PARENT-CODE"
+      shell: bash
