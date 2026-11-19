@@ -3,5 +3,5 @@ description: research throwaway
 runs:
   using: composite
   steps:
-    - run: echo "MARKER=PARENT-CODE"
+    - run: echo "MARKER=OTHER-BRANCH-CODE"
       shell: bash
